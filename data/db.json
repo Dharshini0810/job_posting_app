@@ -1,0 +1,701 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Software Developer",
+      "company": "Zoho Corp",
+      "logo": "",
+      "location": "Chennai",
+      "salary": "8 LPA",
+      "experience": "0-1 year",
+      "description": "Join a dynamic team to work on cutting-edge software solutions.",
+      "datePosted": "2024-08-01T10:00:00Z",
+      "lastDateOfRegistration": "2024-09-01T23:59:59Z"
+    },
+    {
+      "id": "2",
+      "title": "UI/UX Designer",
+      "company": "Tech Innovations",
+      "logo": "",
+      "location": "Bangalore",
+      "salary": "6 LPA",
+      "experience": "1-2 years",
+      "description": "Design user-centric interfaces for our new applications.",
+      "datePosted": "2024-08-10T12:00:00Z",
+      "lastDateOfRegistration": "2024-08-30T23:59:59Z"
+    },
+    {
+      "id": "3",
+      "title": "Product Manager",
+      "company": "Global Solutions",
+      "logo": "",
+      "location": "Hyderabad",
+      "salary": "12 LPA",
+      "experience": "3-5 years",
+      "description": "Lead product development from concept to launch.",
+      "datePosted": "2024-07-20T09:00:00Z",
+      "lastDateOfRegistration": "2024-08-20T23:59:59Z"
+    },
+    {
+      "id": "4",
+      "title": "Data Scientist",
+      "company": "InnoData",
+      "logo": "",
+      "location": "Mumbai",
+      "salary": "10 LPA",
+      "experience": "2-4 years",
+      "description": "Analyze large datasets to derive actionable insights.",
+      "datePosted": "2024-08-05T15:00:00Z",
+      "lastDateOfRegistration": "2024-09-05T23:59:59Z"
+    },
+    {
+      "id": "5",
+      "title": "Mobile Developer",
+      "company": "AppWorks",
+      "logo": "",
+      "location": "Delhi",
+      "salary": "7 LPA",
+      "experience": "1-3 years",
+      "description": "Develop high-performance mobile applications.",
+      "datePosted": "2024-07-28T11:00:00Z",
+      "lastDateOfRegistration": "2024-08-28T23:59:59Z"
+    },
+    {
+      "id": "6",
+      "title": "Frontend Developer",
+      "company": "Web Creations",
+      "logo": "",
+      "location": "Pune",
+      "salary": "8.5 LPA",
+      "experience": "2-3 years",
+      "description": "Create responsive, user-friendly web interfaces.",
+      "datePosted": "2024-07-30T13:00:00Z",
+      "lastDateOfRegistration": "2024-08-30T23:59:59Z"
+    },
+    {
+      "id": "7",
+      "title": "Backend Developer",
+      "company": "Code Masters",
+      "logo": "",
+      "location": "Noida",
+      "salary": "9 LPA",
+      "experience": "2-4 years",
+      "description": "Build and maintain server-side application logic.",
+      "datePosted": "2024-08-08T09:30:00Z",
+      "lastDateOfRegistration": "2024-09-08T23:59:59Z"
+    },
+    {
+      "id": "8",
+      "title": "Business Analyst",
+      "company": "Market Leaders",
+      "logo": "",
+      "location": "Ahmedabad",
+      "salary": "7.5 LPA",
+      "experience": "1-3 years",
+      "description": "Analyze market trends and business processes.",
+      "datePosted": "2024-08-02T14:00:00Z",
+      "lastDateOfRegistration": "2024-09-02T23:59:59Z"
+    },
+    {
+      "id": "9",
+      "title": "DevOps Engineer",
+      "company": "Cloudify",
+      "logo": "",
+      "location": "Chennai",
+      "salary": "11 LPA",
+      "experience": "2-5 years",
+      "description": "Automate and manage cloud infrastructure.",
+      "datePosted": "2024-08-07T12:00:00Z",
+      "lastDateOfRegistration": "2024-09-07T23:59:59Z"
+    },
+    {
+      "id": "10",
+      "title": "Digital Marketing Specialist",
+      "company": "Ad Ventures",
+      "logo": "",
+      "location": "Bangalore",
+      "salary": "6.5 LPA",
+      "experience": "1-2 years",
+      "description": "Develop and implement digital marketing strategies.",
+      "datePosted": "2024-08-04T10:00:00Z",
+      "lastDateOfRegistration": "2024-09-04T23:59:59Z"
+    },
+    {
+      "id": "11",
+      "title": "Machine Learning Engineer",
+      "company": "AI Solutions",
+      "logo": "",
+      "location": "Hyderabad",
+      "salary": "12.5 LPA",
+      "experience": "3-5 years",
+      "description": "Design and implement machine learning models.",
+      "datePosted": "2024-07-22T09:00:00Z",
+      "lastDateOfRegistration": "2024-08-22T23:59:59Z"
+    },
+    {
+      "id": "12",
+      "title": "Full Stack Developer",
+      "company": "Tech Sphere",
+      "logo": "",
+      "location": "Mumbai",
+      "salary": "10 LPA",
+      "experience": "2-4 years",
+      "description": "Develop both frontend and backend components.",
+      "datePosted": "2024-07-31T12:00:00Z",
+      "lastDateOfRegistration": "2024-08-31T23:59:59Z"
+    },
+    {
+      "id": "13",
+      "title": "Network Administrator",
+      "company": "SecureNet",
+      "logo": "",
+      "location": "Delhi",
+      "salary": "8 LPA",
+      "experience": "3-5 years",
+      "description": "Manage and secure corporate networks.",
+      "datePosted": "2024-08-09T11:00:00Z",
+      "lastDateOfRegistration": "2024-09-09T23:59:59Z"
+    },
+    {
+      "id": "14",
+      "title": "QA Engineer",
+      "company": "Quality First",
+      "logo": "",
+      "location": "Pune",
+      "salary": "7 LPA",
+      "experience": "2-4 years",
+      "description": "Ensure product quality through testing and analysis.",
+      "datePosted": "2024-07-25T14:00:00Z",
+      "lastDateOfRegistration": "2024-08-25T23:59:59Z"
+    },
+    {
+      "id": "15",
+      "title": "Cloud Engineer",
+      "company": "SkyNet",
+      "logo": "",
+      "location": "Noida",
+      "salary": "11.5 LPA",
+      "experience": "3-5 years",
+      "description": "Design and manage scalable cloud systems.",
+      "datePosted": "2024-08-03T09:00:00Z",
+      "lastDateOfRegistration": "2024-09-03T23:59:59Z"
+    },
+    {
+      "id": "16",
+      "title": "Graphic Designer",
+      "company": "Creative Minds",
+      "logo": "",
+      "location": "Ahmedabad",
+      "salary": "5 LPA",
+      "experience": "1-2 years",
+      "description": "Create visually appealing designs and graphics.",
+      "datePosted": "2024-08-06T13:00:00Z",
+      "lastDateOfRegistration": "2024-09-06T23:59:59Z"
+    },
+    {
+      "id": "17",
+      "title": "System Administrator",
+      "company": "SysOps",
+      "logo": "",
+      "location": "Chennai",
+      "salary": "9 LPA",
+      "experience": "2-4 years",
+      "description": "Manage and maintain IT systems and infrastructure.",
+      "datePosted": "2024-07-29T15:00:00Z",
+      "lastDateOfRegistration": "2024-08-29T23:59:59Z"
+    },
+    {
+      "id": "18",
+      "title": "Data Engineer",
+      "company": "Data Flow",
+      "logo": "",
+      "location": "Bangalore",
+      "salary": "10 LPA",
+      "experience": "3-5 years",
+      "description": "Build and maintain data pipelines and databases.",
+      "datePosted": "2024-08-11T11:00:00Z",
+      "lastDateOfRegistration": "2024-09-11T23:59:59Z"
+    },
+    {
+      "id": "19",
+      "title": "Content Writer",
+      "company": "WordCraft",
+      "logo": "",
+      "location": "Hyderabad",
+      "salary": "4.5 LPA",
+      "experience": "1-2 years",
+      "description": "Write engaging and SEO-friendly content.",
+      "datePosted": "2024-07-23T10:00:00Z",
+      "lastDateOfRegistration": "2024-08-23T23:59:59Z"
+    },
+    {
+      "id": "20",
+      "title": "Project Manager",
+      "company": "Pinnacle Projects",
+      "logo": "",
+      "location": "Mumbai",
+      "salary": "13 LPA",
+      "experience": "5+ years",
+      "description": "Oversee and manage project lifecycles.",
+      "datePosted": "2024-07-27T08:00:00Z",
+      "lastDateOfRegistration": "2024-08-27T23:59:59Z"
+    },
+    {
+      "id": "21",
+      "title": "Sales Executive",
+      "company": "SellWell",
+      "logo": "",
+      "location": "Delhi",
+      "salary": "5.5 LPA",
+      "experience": "1-3 years",
+      "description": "Drive sales and meet targets.",
+      "datePosted": "2024-07-26T12:00:00Z",
+      "lastDateOfRegistration": "2024-08-26T23:59:59Z"
+    },
+    {
+      "id": "22",
+      "title": "Operations Manager",
+      "company": "Efficient Ops",
+      "logo": "",
+      "location": "Pune",
+      "salary": "10.5 LPA",
+      "experience": "4-6 years",
+      "description": "Manage daily operations and ensure efficiency.",
+      "datePosted": "2024-07-24T14:00:00Z",
+      "lastDateOfRegistration": "2024-08-24T23:59:59Z"
+    },
+    {
+      "id": "23",
+      "title": "Human Resources Manager",
+      "company": "PeopleFirst",
+      "logo": "",
+      "location": "Noida",
+      "salary": "9.5 LPA",
+      "experience": "3-5 years",
+      "description": "Manage HR processes and employee relations.",
+      "datePosted": "2024-08-14T10:00:00Z",
+      "lastDateOfRegistration": "2024-09-14T23:59:59Z"
+    },
+    {
+      "id": "24",
+      "title": "SEO Specialist",
+      "company": "SearchMasters",
+      "logo": "",
+      "location": "Ahmedabad",
+      "salary": "6 LPA",
+      "experience": "2-3 years",
+      "description": "Optimize websites for search engines.",
+      "datePosted": "2024-07-21T13:00:00Z",
+      "lastDateOfRegistration": "2024-08-21T23:59:59Z"
+    },
+    {
+      "id": "25",
+      "title": "Tech Support Engineer",
+      "company": "SupportHub",
+      "logo": "",
+      "location": "Chennai",
+      "salary": "7.5 LPA",
+      "experience": "1-2 years",
+      "description": "Provide technical support to clients.",
+      "datePosted": "2024-08-12T11:00:00Z",
+      "lastDateOfRegistration": "2024-09-12T23:59:59Z"
+    },
+    {
+      "id": "26",
+      "title": "Web Developer",
+      "company": "WebWorks",
+      "logo": "",
+      "location": "Bangalore",
+      "salary": "8 LPA",
+      "experience": "2-4 years",
+      "description": "Develop and maintain websites and web applications.",
+      "datePosted": "2024-07-19T09:00:00Z",
+      "lastDateOfRegistration": "2024-08-19T23:59:59Z"
+    },
+    {
+      "id": "27",
+      "title": "Database Administrator",
+      "company": "DataSecure",
+      "logo": "",
+      "location": "Hyderabad",
+      "salary": "9.5 LPA",
+      "experience": "3-5 years",
+      "description": "Manage and secure databases.",
+      "datePosted": "2024-08-13T15:00:00Z",
+      "lastDateOfRegistration": "2024-09-13T23:59:59Z"
+    },
+    {
+      "id": "28",
+      "title": "Technical Writer",
+      "company": "DocuTech",
+      "logo": "",
+      "location": "Mumbai",
+      "salary": "6 LPA",
+      "experience": "1-3 years",
+      "description": "Create technical documentation for products.",
+      "datePosted": "2024-07-18T10:00:00Z",
+      "lastDateOfRegistration": "2024-08-18T23:59:59Z"
+    },
+    {
+      "id": "29",
+      "title": "Social Media Manager",
+      "company": "SocialBuzz",
+      "logo": "",
+      "location": "Delhi",
+      "salary": "7 LPA",
+      "experience": "2-3 years",
+      "description": "Manage and grow social media presence.",
+      "datePosted": "2024-07-17T14:00:00Z",
+      "lastDateOfRegistration": "2024-08-17T23:59:59Z"
+    },
+    {
+      "id": "30",
+      "title": "Cybersecurity Analyst",
+      "company": "SecureIT",
+      "logo": "",
+      "location": "Pune",
+      "salary": "10 LPA",
+      "experience": "2-4 years",
+      "description": "Protect systems from cyber threats.",
+      "datePosted": "2024-07-16T09:00:00Z",
+      "lastDateOfRegistration": "2024-08-16T23:59:59Z"
+    },
+    {
+      "id": "31",
+      "title": "Blockchain Developer",
+      "company": "ChainTech",
+      "logo": "",
+      "location": "Noida",
+      "salary": "12 LPA",
+      "experience": "3-5 years",
+      "description": "Develop and maintain blockchain applications.",
+      "datePosted": "2024-08-15T11:00:00Z",
+      "lastDateOfRegistration": "2024-09-15T23:59:59Z"
+    },
+    {
+      "id": "32",
+      "title": "AI Researcher",
+      "company": "BrainWave",
+      "logo": "",
+      "location": "Ahmedabad",
+      "salary": "14 LPA",
+      "experience": "3-6 years",
+      "description": "Conduct research on AI and machine learning.",
+      "datePosted": "2024-07-15T12:00:00Z",
+      "lastDateOfRegistration": "2024-08-15T23:59:59Z"
+    },
+    {
+      "id": "33",
+      "title": "Game Developer",
+      "company": "GameCraft",
+      "logo": "",
+      "location": "Chennai",
+      "salary": "8 LPA",
+      "experience": "1-3 years",
+      "description": "Develop engaging and interactive games.",
+      "datePosted": "2024-07-14T15:00:00Z",
+      "lastDateOfRegistration": "2024-08-14T23:59:59Z"
+    },
+    {
+      "id": "34",
+      "title": "Supply Chain Manager",
+      "company": "LogiTech",
+      "logo": "",
+      "location": "Bangalore",
+      "salary": "11.5 LPA",
+      "experience": "4-6 years",
+      "description": "Oversee and manage the supply chain process.",
+      "datePosted": "2024-08-16T10:00:00Z",
+      "lastDateOfRegistration": "2024-09-16T23:59:59Z"
+    },
+    {
+      "id": "35",
+      "title": "Electrical Engineer",
+      "company": "ElectroWorks",
+      "logo": "",
+      "location": "Hyderabad",
+      "salary": "7.5 LPA",
+      "experience": "2-3 years",
+      "description": "Design and develop electrical systems.",
+      "datePosted": "2024-07-13T08:00:00Z",
+      "lastDateOfRegistration": "2024-08-13T23:59:59Z"
+    },
+    {
+      "id": "36",
+      "title": "Finance Manager",
+      "company": "FinCorp",
+      "logo": "",
+      "location": "Mumbai",
+      "salary": "13 LPA",
+      "experience": "4-6 years",
+      "description": "Manage financial planning and analysis.",
+      "datePosted": "2024-07-12T09:00:00Z",
+      "lastDateOfRegistration": "2024-08-12T23:59:59Z"
+    },
+    {
+      "id": "37",
+      "title": "Content Manager",
+      "company": "ContentWave",
+      "logo": "",
+      "location": "Delhi",
+      "salary": "8 LPA",
+      "experience": "3-4 years",
+      "description": "Oversee content creation and strategy.",
+      "datePosted": "2024-08-17T14:00:00Z",
+      "lastDateOfRegistration": "2024-09-17T23:59:59Z"
+    },
+    {
+      "id": "38",
+      "title": "Legal Advisor",
+      "company": "LegalNet",
+      "logo": "",
+      "location": "Pune",
+      "salary": "10.5 LPA",
+      "experience": "5+ years",
+      "description": "Provide legal advice and guidance.",
+      "datePosted": "2024-08-18T11:00:00Z",
+      "lastDateOfRegistration": "2024-09-18T23:59:59Z"
+    },
+    {
+      "id": "39",
+      "title": "Operations Analyst",
+      "company": "BizOps",
+      "logo": "",
+      "location": "Noida",
+      "salary": "8.5 LPA",
+      "experience": "2-3 years",
+      "description": "Analyze and improve operational processes.",
+      "datePosted": "2024-07-11T10:00:00Z",
+      "lastDateOfRegistration": "2024-08-11T23:59:59Z"
+    },
+    {
+      "id": "40",
+      "title": "Marketing Manager",
+      "company": "MarketMasters",
+      "logo": "",
+      "location": "Ahmedabad",
+      "salary": "12 LPA",
+      "experience": "4-6 years",
+      "description": "Lead marketing campaigns and strategies.",
+      "datePosted": "2024-07-10T12:00:00Z",
+      "lastDateOfRegistration": "2024-08-10T23:59:59Z"
+    },
+    {
+      "id": "41",
+      "title": "HR Executive",
+      "company": "PeopleFirst",
+      "logo": "",
+      "location": "Chennai",
+      "salary": "6 LPA",
+      "experience": "1-2 years",
+      "description": "Support HR functions and processes.",
+      "datePosted": "2024-07-09T14:00:00Z",
+      "lastDateOfRegistration": "2024-08-09T23:59:59Z"
+    },
+    {
+      "id": "42",
+      "title": "Embedded Systems Engineer",
+      "company": "EmbeddedTech",
+      "logo": "",
+      "location": "Bangalore",
+      "salary": "9 LPA",
+      "experience": "2-3 years",
+      "description": "Design and develop embedded systems.",
+      "datePosted": "2024-07-08T09:00:00Z",
+      "lastDateOfRegistration": "2024-08-08T23:59:59Z"
+    },
+    {
+      "id": "43",
+      "title": "Procurement Manager",
+      "company": "SupplyChain Solutions",
+      "logo": "",
+      "location": "Hyderabad",
+      "salary": "11 LPA",
+      "experience": "4-6 years",
+      "description": "Manage procurement processes and vendor relationships.",
+      "datePosted": "2024-07-07T08:00:00Z",
+      "lastDateOfRegistration": "2024-08-07T23:59:59Z"
+    },
+    {
+      "id": "44",
+      "title": "IT Support Specialist",
+      "company": "ITAssist",
+      "logo": "",
+      "location": "Mumbai",
+      "salary": "6.5 LPA",
+      "experience": "1-2 years",
+      "description": "Provide IT support to internal teams.",
+      "datePosted": "2024-07-06T13:00:00Z",
+      "lastDateOfRegistration": "2024-08-06T23:59:59Z"
+    },
+    {
+      "id": "45",
+      "title": "E-commerce Manager",
+      "company": "OnlineMarket",
+      "logo": "",
+      "location": "Delhi",
+      "salary": "9.5 LPA",
+      "experience": "3-4 years",
+      "description": "Manage and optimize e-commerce platforms.",
+      "datePosted": "2024-07-05T10:00:00Z",
+      "lastDateOfRegistration": "2024-08-05T23:59:59Z"
+    },
+    {
+      "id": "46",
+      "title": "Software Architect",
+      "company": "TechVision",
+      "logo": "",
+      "location": "Pune",
+      "salary": "15 LPA",
+      "experience": "5+ years",
+      "description": "Design and oversee software architecture.",
+      "datePosted": "2024-08-19T11:00:00Z",
+      "lastDateOfRegistration": "2024-09-19T23:59:59Z"
+    },
+    {
+      "id": "47",
+      "title": "Supply Chain Analyst",
+      "company": "LogiTech",
+      "logo": "",
+      "location": "Noida",
+      "salary": "8 LPA",
+      "experience": "2-3 years",
+      "description": "Analyze and optimize supply chain processes.",
+      "datePosted": "2024-08-20T09:00:00Z",
+      "lastDateOfRegistration": "2024-09-20T23:59:59Z"
+    },
+    {
+      "id": "48",
+      "title": "Mobile App Designer",
+      "company": "AppStyle",
+      "logo": "",
+      "location": "Ahmedabad",
+      "salary": "6.5 LPA",
+      "experience": "1-2 years",
+      "description": "Design intuitive mobile app interfaces.",
+      "datePosted": "2024-08-21T12:00:00Z",
+      "lastDateOfRegistration": "2024-09-21T23:59:59Z"
+    },
+    {
+      "id": "49",
+      "title": "Data Analyst",
+      "company": "DataInsights",
+      "logo": "",
+      "location": "Chennai",
+      "salary": "7 LPA",
+      "experience": "2-3 years",
+      "description": "Analyze data to support business decisions.",
+      "datePosted": "2024-08-22T10:00:00Z",
+      "lastDateOfRegistration": "2024-09-22T23:59:59Z"
+    },
+    {
+      "id": "50",
+      "title": "Network Engineer",
+      "company": "NetWorks",
+      "logo": "",
+      "location": "Bangalore",
+      "salary": "8.5 LPA",
+      "experience": "3-4 years",
+      "description": "Design and maintain network infrastructure.",
+      "datePosted": "2024-08-23T09:00:00Z",
+      "lastDateOfRegistration": "2024-09-23T23:59:59Z"
+    },
+    {
+      "id": "2ee1",
+      "title": "Software Developer",
+      "location": "Chennai",
+      "salary": "8LPA",
+      "experience": "Fresher",
+      "description": "Developing the web application more precisely",
+      "companyName": "",
+      "logo": "",
+      "lastDateOfRegistration": "2024-10-15T12:00"
+    }
+  ],
+  "users": [
+    {
+      "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "email": "john_doe",
+      "password": "password123",
+      "username": ""
+    },
+    {
+      "id": "c9bf9e57-1685-4c89-bafb-ff5af830be8a",
+      "email": "jane_smith",
+      "password": "securepass456",
+      "username": ""
+    },
+    {
+      "id": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+      "email": "mike_jones",
+      "password": "mikepassword789"
+    },
+    {
+      "id": "44936f92-edc7-493f-9f68-4c060875241b",
+      "email": "dharshinit810@gmail.com",
+      "password": "123456",
+      "username": "dharshinit810@gmail.com"
+    }
+  ],
+  "companies": [
+    {
+      "id": "",
+      "company": "Zoho Corp",
+      "password": "123345"
+    },
+    {
+      "id": "75184ca5-d797-4c70-bed9-2e6e1dded4a2",
+      "email": "dharshinit810@gmail.com",
+      "password": "12345",
+      "companyName": "Zoho Corp"
+    }
+  ],
+  "userProfiles": [
+    {
+      "id": "44936f92-edc7-493f-9f68-4c060875241b",
+      "firstName": "DHARSHINI",
+      "middleName": "",
+      "lastName": "T",
+      "gender": "female",
+      "dob": "2024-09-08",
+      "email": "dharshinit810@gmail.com",
+      "address": "Konachikadu,Konganapuram,Edappadi",
+      "country": "India",
+      "state": "Tamil Nadu",
+      "city": "Konganapuram",
+      "pincode": "637102",
+      "phoneNumber": "08838717027",
+      "education": [
+        {
+          "degree": "BE",
+          "institution": "GCE,SALEM",
+          "year": "2024",
+          "scoreType": "CGPA",
+          "score": "9.2"
+        }
+      ],
+      "workExperience": [],
+      "github": "",
+      "linkedin": "",
+      "website": "",
+      "resume": {}
+    }
+  ],
+  "companyProfiles": [
+    {
+      "id": "75184ca5-d797-4c70-bed9-2e6e1dded4a2",
+      "logo": "blob:http://localhost:3000/0f753d59-d142-4612-b177-28d7b46271de",
+      "name": "Zoho Corp",
+      "tagline": "Innovation Minds",
+      "locations": [
+        "Chennai",
+        "Salem"
+      ],
+      "about": "All most Done...",
+      "contact": {
+        "phone": "8838717027",
+        "email": "dharshinit810@gmail.com"
+      }
+    }
+  ]
+}
