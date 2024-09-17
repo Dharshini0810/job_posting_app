@@ -8,18 +8,22 @@ const Header = () => {
   const [userLoggedIn, setUserLoggedIn] = useState(false);
   const [companyLoggedIn, setCompanyLoggedIn] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false); // State for dropdown visibility
+  const [state,setState] = useState(false);
 
   const { userId, companyId } = useParams();
+  
 
   useEffect(() => {
-    if (userId) {
+    if (userId || state === true) {
+      setState(true);
       setUserLoggedIn(true);
       setCompanyLoggedIn(false);
-    } else if (companyId) {
+    } else if (companyId || state === true) {
+      setState(true);
       setCompanyLoggedIn(true);
       setUserLoggedIn(false);
     } 
-  }, [userId, companyId]);
+  }, [userId, companyId,state]);
 
   const handleLogin = () => {
     navigate('/login');
@@ -29,7 +33,8 @@ const Header = () => {
     // Implement logout logic
     navigate('/');
     setUserLoggedIn(false);
-      setCompanyLoggedIn(false);
+    setCompanyLoggedIn(false);
+    setState(false);
 
   };
 

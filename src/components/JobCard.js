@@ -1,8 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from 'react-router-dom';
 
 const JobCard = ({ job }) => {
+  const navigate = useNavigate(); // Import useNavigate hook for navigation
   const currentDate = new Date();
 
   const calculateStatus = (lastDateOfRegistration) => {
@@ -13,6 +15,11 @@ const JobCard = ({ job }) => {
       return "Closed";
     }
     return "Open";
+  };
+
+  const handleKnowMore = () => {
+    // Navigate to detailed job page
+    navigate(`/jobs/${job.id}`);
   };
 
   const calculateTimeOfPost = (datePosted) => {
@@ -93,7 +100,11 @@ const JobCard = ({ job }) => {
       </div>
 
       <div>
-        <button className="bg-blue-800 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded transition duration-300 text-sm md:text-base">
+        <button
+          className="bg-blue-800 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded transition duration-300 text-sm md:text-base"
+          type="button"
+          onClick={handleKnowMore} // Use function reference here
+        >
           Know More
         </button>
       </div>

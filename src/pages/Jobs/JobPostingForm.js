@@ -17,10 +17,11 @@ const JobPostingForm = () => {
     description: '',
     companyName: '',
     logo: '',
-    lastDateOfRegistration: ''  // New field for last date of registration
+    lastDateOfRegistration: '',
+    educationalQualifications: '',
+    skillsRequired: '',
+    rounds: '' // New field for rounds or stages of the hiring process
   });
-
-  console.log(companyProfile)
 
   useEffect(() => {
     if (companyProfile) {
@@ -134,6 +135,45 @@ const JobPostingForm = () => {
           value={jobDetails.lastDateOfRegistration}
           onChange={handleChange}
           required
+          className="mt-1 block w-full border-gray-300 rounded-md shadow-sm"
+        />
+      </div>
+
+      <div className="mb-4">
+        <label htmlFor="educationalQualifications" className="block text-sm font-medium text-gray-700">Educational Qualifications</label>
+        <textarea
+          id="educationalQualifications"
+          name="educationalQualifications"
+          value={jobDetails.educationalQualifications}
+          onChange={handleChange}
+          required
+          rows="3"
+          className="mt-1 block w-full border-gray-300 rounded-md shadow-sm"
+        />
+      </div>
+
+      <div className="mb-4">
+        <label htmlFor="skillsRequired" className="block text-sm font-medium text-gray-700">Skills Required</label>
+        <textarea
+          id="skillsRequired"
+          name="skillsRequired"
+          value={jobDetails.skillsRequired}
+          onChange={handleChange}
+          required
+          rows="3"
+          className="mt-1 block w-full border-gray-300 rounded-md shadow-sm"
+        />
+      </div>
+
+      <div className="mb-4">
+        <label htmlFor="rounds" className="block text-sm font-medium text-gray-700">Rounds/Stages</label>
+        <textarea
+          id="rounds"
+          name="rounds"
+          value={jobDetails.rounds}
+          onChange={handleChange}
+          required
+          rows="3"
           className="mt-1 block w-full border-gray-300 rounded-md shadow-sm"
         />
       </div>

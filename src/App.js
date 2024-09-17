@@ -12,6 +12,7 @@ import UserProfile from "./pages/Profile/UserProfile";
 
 import CompanyProfile from "./pages/Profile/CompanyProfile";
 import JobPostingForm from "./pages/Jobs/JobPostingForm";
+import JobDetailPage from "./pages/Jobs/JobDetailPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="jobs" element={<Jobs />} />
+        <Route path="jobs/:jobId" element={<JobDetailPage/>}/>
         <Route path="login" element={<Login />}/>
         <Route path="login/user" element={<UsersLogin/>}/>
         <Route path="user-profile/:userId" element={<UserProfile/>}/>

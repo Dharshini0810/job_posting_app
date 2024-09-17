@@ -678,7 +678,8 @@
       "github": "",
       "linkedin": "",
       "website": "",
-      "resume": {}
+      "resume": {},
+      "applied Jobs":[]
     }
   ],
   "companyProfiles": [
@@ -695,7 +696,11 @@
       "contact": {
         "phone": "8838717027",
         "email": "dharshinit810@gmail.com"
-      }
+      },
+      "jobs" :[{
+        "jobId":"",
+        "users":[""]
+      }]
     }
   ]
 }

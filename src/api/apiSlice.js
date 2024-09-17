@@ -84,6 +84,46 @@ export const apiSlice = createApi({
       }),
       invalidatesTags: ["CompanyProfiles"],
     }),
+    applyForJob: builder.mutation({
+      query: ({ userId, jobId }) => ({
+        url: `/jobs/${jobId}/apply`,
+        method: 'POST',
+        body: { userId },
+      }),
+      async onQueryStarted({ userId, jobId }, { dispatch, queryFulfilled }) {
+        try {
+          const { data } = await queryFulfilled;
+
+          // Update user profile with applied job
+          dispatch(
+            apiSlice.util.updateQueryData('getUserProfiles', undefined, (draft) => {
+              const userProfile = draft.find((profile) => profile.id === userId);
+              if (userProfile && !userProfile.appliedJobs.includes(jobId)) {
+                userProfile.appliedJobs.push(jobId);
+              }
+            })
+          );
+
+          // Update company profile with applied user
+          dispatch(
+            apiSlice.util.updateQueryData('getCompanyProfiles', undefined, (draft) => {
+              const companyProfile = draft.find((profile) =>
+                profile.jobs.some((job) => job.jobId === jobId)
+              );
+              if (companyProfile) {
+                const job = companyProfile.jobs.find((job) => job.jobId === jobId);
+                if (job && !job.users.includes(userId)) {
+                  job.users.push(userId);
+                }
+              }
+            })
+          );
+
+        } catch (err) {
+          console.error('Failed to apply for job:', err);
+        }
+      },
+    }),
   }),
 });
 
